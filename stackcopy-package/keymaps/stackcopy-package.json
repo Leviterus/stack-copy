@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "stackcopy-package:toggle",
+    "ctrl-alt-c": "stackcopy-package:copy",
+    "ctrl-alt-v": "stackcopy-package:paste"
+  }
+}

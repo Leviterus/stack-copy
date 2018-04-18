@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle stackcopy-package",
+        "command": "stackcopy-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "stackcopy-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "stackcopy-package:toggle",
+              "label": "Copy",
+              "command": "stackcopy-package:copy",
+              "label": "Paste",
+              "command": "stackcopy-package:paste"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
